@@ -1,0 +1,21 @@
+{
+    "name": "naufal/belajar-php-mvc-2",
+    "description": "Belajar PHP MVC 2",
+    "type": "project",
+    "require": {
+        "php": ">= 8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "naufal\\Belajar\\PHP\\MVC\\": "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "naufal\\Belajar\\PHP\\MVC\\": "test"
+        }
+    }
+}
